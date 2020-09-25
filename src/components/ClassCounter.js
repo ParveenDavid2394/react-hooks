@@ -23,6 +23,7 @@ class ClassCounter extends Component{
     }
 
     render(){
+        
         return(
             <div>
                 <h2>Count {this.state.count}</h2>
