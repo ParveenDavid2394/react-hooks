@@ -16,3 +16,5 @@ function MouseContainer(props){
         </div>
     )
 }
+
+export default MouseContainer
