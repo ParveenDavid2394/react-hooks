@@ -15,6 +15,7 @@ import HookMouse from './components/HookMouse';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
+import ParentComponent from './components/UseCallBack/ParentComponent';
 import UseContext from './components/UseContext';
 import UseReducer from './components/UseReducer';
 import ComponentA from './components/UseReducerAndUseContext/ComponentA';
@@ -86,7 +87,8 @@ function App() {
             </div>
         </CountContext.Provider> */}
         {/* <DataFetchingOne /> */}
-          <DataFetchingTwo />
+        {/* <DataFetchingTwo /> */}
+        {/* <ParentComponent /> */}
     </div>
   );
 }

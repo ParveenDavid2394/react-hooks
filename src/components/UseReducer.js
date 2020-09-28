@@ -8,6 +8,21 @@
         newState = reducer(currentState, action)
     
         - useReducer returns a pair of values. [newState, dispatch]
+
+    useState vs useReducer
+        1) useState
+            - better option if need to manage primitive type of state like boolean, string or numbers
+            - suitable for 1 or 2 state transitions
+            - can use if the state transitions are not related
+            - use if no business logic is involved
+            - if need to keep local state, use useState
+
+        2) useReducer
+            - better option if need to manage objects or array types of state
+            - better if there are more than 2 state transitions involved
+            - if state transitions are related, then use useReducer
+            - use when complex business logic needs to take place
+            - if need to make state global, use useReducer
     
 */
 
