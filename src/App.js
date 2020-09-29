@@ -3,6 +3,8 @@ import './App.css';
 import ClassCounter from './components/ClassCounter';
 import ClassCounterOne from './components/ClassCounterOne';
 import ClassMouse from './components/ClassMouse';
+import DocTitleOne from './components/CustomHook/DocTitleOne';
+import DocTitleTwo from './components/CustomHook/DocTitleTwo';
 import DataFetching from './components/DataFetching';
 import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
@@ -94,7 +96,9 @@ function App() {
         {/* <ParentComponent /> */}
         {/* <UseMemo /> */}
         {/* <UseRef /> */}
-        <UseRefTwo />
+        {/* <UseRefTwo /> */}
+        {/* <DocTitleOne /> */}
+        {/* <DocTitleTwo /> */}
     </div>
   );
 }
