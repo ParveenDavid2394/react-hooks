@@ -17,12 +17,15 @@ import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
 import ParentComponent from './components/UseCallBack/ParentComponent';
 import UseContext from './components/UseContext';
+import UseMemo from './components/UseMemo/UseMemo';
 import UseReducer from './components/UseReducer';
 import ComponentA from './components/UseReducerAndUseContext/ComponentA';
 import ComponentB from './components/UseReducerAndUseContext/ComponentB';
 import ComponentC from './components/UseReducerAndUseContext/ComponentC';
 import UseReducerThree from './components/UseReducerThree';
 import UseReducerTwo from './components/UseReducerTwo';
+import UseRef from './components/UseRef';
+import UseRefTwo from './components/UseRefTwo';
 
 // useContext example
 export const UserContext =  React.createContext()
@@ -89,6 +92,9 @@ function App() {
         {/* <DataFetchingOne /> */}
         {/* <DataFetchingTwo /> */}
         {/* <ParentComponent /> */}
+        {/* <UseMemo /> */}
+        {/* <UseRef /> */}
+        <UseRefTwo />
     </div>
   );
 }
