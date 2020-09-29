@@ -3,8 +3,11 @@ import './App.css';
 import ClassCounter from './components/ClassCounter';
 import ClassCounterOne from './components/ClassCounterOne';
 import ClassMouse from './components/ClassMouse';
+import CounterOne from './components/CustomHook/CounterOne';
+import CounterTwo from './components/CustomHook/CounterTwo';
 import DocTitleOne from './components/CustomHook/DocTitleOne';
 import DocTitleTwo from './components/CustomHook/DocTitleTwo';
+import UserForm from './components/CustomHook/UserForm';
 import DataFetching from './components/DataFetching';
 import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
@@ -99,6 +102,9 @@ function App() {
         {/* <UseRefTwo /> */}
         {/* <DocTitleOne /> */}
         {/* <DocTitleTwo /> */}
+        {/* <CounterOne /> */}
+        {/* <CounterTwo /> */}
+        <UserForm />
     </div>
   );
 }
